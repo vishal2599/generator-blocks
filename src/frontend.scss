@@ -1,0 +1,22 @@
+.block-theme-box{
+    padding:50px 30px;
+    @media only screen and (min-width: 768px){
+        padding:80px 40px;
+    }
+    @media only screen and (min-width: 992px){
+        padding:80px;
+    }
+    &.block-theme-light{
+        border: 1px solid #E6E7EB;
+        margin: 30px 0px;
+        box-shadow: 0px 6px 18px -6px rgb(18 20 26 / 5%);
+        form{
+            .input-group{
+                input{
+                    border: 1px solid #e6e7eb;
+                    background: transparent;
+                }
+            }
+        }
+    }
+}
